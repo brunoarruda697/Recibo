@@ -1,4 +1,4 @@
-package br.com.db1.start.recibo;
+package br.com.db1.start.tipo;
 
 public enum TipoLogradouro {
 
