@@ -17,7 +17,7 @@ public class Endereco {
 	private Integer cep;
 
 	private Cidade cidade;
-	
+
 	public Integer getCep() {
 		return cep;
 	}
@@ -28,11 +28,9 @@ public class Endereco {
 
 	public String getCepFormatado() {
 		String cepFormatado = cep.toString();
-		cepFormatado = cepFormatado.substring(0, 5) + "-" 
-		+ cepFormatado.substring(5, 8);
+		cepFormatado = cepFormatado.substring(0, 5) + "-" + cepFormatado.substring(5, 8);
 		return cepFormatado;
-		
+
 	}
 
 }
-
